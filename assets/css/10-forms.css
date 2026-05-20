@@ -1,0 +1,30 @@
+.cta-card{padding:32px;border:1px solid var(--line);border-radius:var(--radius-xl);background:#fff;box-shadow:var(--shadow)}
+.form{display:grid;gap:16px}
+.form--compact{gap:12px}
+.form-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.field{display:grid;gap:8px}
+.field label{font-size:14px;color:var(--muted);font-weight:850}
+.field input,.field textarea,.field select{
+  width:100%;min-height:54px;border:1px solid var(--line);border-radius:16px;background:#fff;
+  padding:14px 16px;color:var(--text);outline:none;transition:.2s ease;
+}
+.field textarea{min-height:112px;resize:vertical}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:rgba(37,99,235,.55);box-shadow:0 0 0 4px rgba(37,99,235,.1)}
+.form-status{min-height:22px;color:var(--muted);font-weight:750}
+.form-status.is-success{color:#15803D}.form-status.is-error{color:#B91C1C}
+.form-note{color:var(--muted);font-size:13px}.form-note a{text-decoration:underline}
+.modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;padding:20px}
+.modal.is-open{display:flex}
+.modal-backdrop{position:absolute;inset:0;background:rgba(15,23,42,.62);backdrop-filter:blur(8px)}
+.modal-dialog{position:relative;z-index:1;width:min(100%,980px);max-height:calc(100vh - 36px);overflow:hidden;padding:24px 24px 18px;border-radius:28px;background:#fff;box-shadow:var(--shadow)}
+.modal-close{position:absolute;top:18px;right:18px;width:42px;height:42px;border:1px solid var(--line);border-radius:14px;background:#fff;font-size:24px}
+.modal-head{margin-bottom:14px}
+.modal-head h2{font-size:clamp(34px,4vw,58px);line-height:1.02;letter-spacing:-.05em}
+.modal-head .lead{font-size:18px;line-height:1.45;margin-top:10px}
+.modal .form-row{gap:12px}
+.modal .field{gap:6px}
+.modal .field input,.modal .field textarea,.modal .field select{min-height:50px;padding:12px 14px}
+.modal .field textarea{min-height:88px}
+.modal .btn{min-height:50px}
+.modal .form-note{font-size:12px}
+

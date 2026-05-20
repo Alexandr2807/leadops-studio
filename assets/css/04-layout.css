@@ -1,0 +1,11 @@
+.grid{display:grid;gap:24px}
+.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.split{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(340px,.86fr);gap:56px;align-items:center}
+.stack{display:grid;gap:16px}
+.inline{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
+.divider{height:1px;background:var(--line);margin:26px 0}
+
+.split--start{align-items:start}
+.sticky-copy{position:sticky;top:calc(var(--header) + 28px);align-self:start}

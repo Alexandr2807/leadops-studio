@@ -1,0 +1,18 @@
+.offer-grid .card{min-height:220px}
+.offer-grid .card p{margin-top:12px}
+.steps{display:grid;gap:14px}
+.step{display:grid;grid-template-columns:54px 1fr;gap:18px;align-items:start;padding:22px;border:1px solid var(--line);border-radius:22px;background:#fff}
+.step-number{display:grid;place-items:center;width:54px;height:54px;border-radius:17px;background:var(--dark);color:#fff;font-weight:950}
+.pilot-banner{padding:38px;border-radius:var(--radius-xl);background:#0F172A;color:#fff;box-shadow:var(--shadow)}
+.pilot-banner p,.pilot-banner li{color:#CBD5E1}
+.pilot-side{padding:28px;border-radius:24px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1)}
+.pilot-side h3{margin-bottom:10px}
+.pilot-side .list-check{margin-top:16px}
+.pilot-side .list-check li{color:#E2E8F0}
+.pilot-side .btn{margin-top:24px}
+.faq{display:grid;gap:12px}
+.faq-item{border:1px solid var(--line);border-radius:20px;background:#fff;overflow:hidden}
+.faq-question{width:100%;min-height:64px;padding:18px 22px;display:flex;justify-content:space-between;gap:20px;border:0;background:transparent;color:var(--text);text-align:left;font-weight:850}
+.faq-question span{font-size:24px;color:var(--primary)}
+.faq-answer{display:none;padding:0 22px 20px;color:var(--muted)}
+.faq-item.is-open .faq-answer{display:block}

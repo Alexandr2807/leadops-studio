@@ -1,0 +1,13 @@
+.site-header{
+  position:fixed;inset:0 0 auto 0;z-index:100;min-height:var(--header);
+  background:rgba(255,255,255,.84);backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(226,232,240,.85);
+}
+.header-inner{min-height:var(--header);display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:inline-flex;align-items:center}
+.logo img{width:178px;height:178px}
+.nav{display:flex;align-items:center;gap:24px;color:var(--muted);font-weight:760}
+.nav a:hover,.nav a.is-active{color:var(--primary)}
+.header-actions{display:flex;align-items:center;gap:12px}
+.menu-toggle{display:none;width:46px;height:46px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.menu-toggle span{display:block;width:18px;height:2px;margin:4px auto;border-radius:99px;background:var(--text)}
