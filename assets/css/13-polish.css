@@ -394,3 +394,24 @@ h5,
 h6 {
   letter-spacing: -0.030em !important;
 }
+
+.work-card{
+  background:rgba(255,255,255,.92);
+  border-color:rgba(218,228,240,.9);
+}
+.work-media{
+  border-bottom-color:rgba(218,228,240,.9);
+  background:linear-gradient(135deg,#EEF4FF,#F0FDF4);
+}
+.work-body{
+  min-height:220px;
+}
+.work-body .link-arrow{
+  margin-bottom:10px
+}
+@media(max-width:1080px){
+  .work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:640px){
+  .work-grid{grid-template-columns:1fr}
+}

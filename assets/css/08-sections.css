@@ -16,3 +16,11 @@
 .faq-question span{font-size:24px;color:var(--primary)}
 .faq-answer{display:none;padding:0 22px 20px;color:var(--muted)}
 .faq-item.is-open .faq-answer{display:block}
+
+.work-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.work-card{padding:0;overflow:hidden}
+.work-media{display:block;aspect-ratio:1.45/1;background:#EEF4FF;border-bottom:1px solid var(--line);overflow:hidden}
+.work-media img{width:100%;height:100%;object-fit:cover;transition:transform .22s ease}
+.work-card:hover .work-media img{transform:scale(1.03)}
+.work-body{padding:24px;display:grid;gap:12px}
+.work-body h3{font-size:24px}
